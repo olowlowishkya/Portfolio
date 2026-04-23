@@ -57,7 +57,7 @@ function executeCommand(command) {
         break;
 
       default:
-        printOutput("Commande inconnue");
+         window.location.href = 'animation.html';
     }
     return;
   }
@@ -79,7 +79,7 @@ function executeCommand(command) {
         window.location.href = 'index.html';
         break;
       default:
-        printOutput('Commande inconnue.');
+        window.location.href = 'animation.html';
     }
     return;
   }
@@ -107,7 +107,7 @@ function executeCommand(command) {
   	break;
 
       default:
-        printOutput("Sujet inconnu.");
+       window.location.href = 'animation.html';
     }
     return;
   }
@@ -134,7 +134,7 @@ function executeCommand(command) {
     return;
   }
 
-  printOutput('Commande inconnue.');
+  window.location.href = 'animation.html';
 }
 
 
