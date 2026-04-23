@@ -130,7 +130,7 @@ function executeCommand(command) {
 
 
   if (command === 'help') {
-    printOutput(`Commandes : cd, cat, mail, /dark, /light`);
+    printOutput(`Commandes : cd, cat, mail, /dark, /light, clear, tab pour auto-complétion`);
     return;
   }
 
